@@ -10,7 +10,7 @@ build-type:     Simple
 
 library
   exposed-modules:
-      Lib
+      LocalLib
   other-modules:
       Paths_app
   hs-source-dirs:

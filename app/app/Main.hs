@@ -1,11 +1,12 @@
 module Main where
 
-import Lib (someFunc)
-import qualified PackagesLib
+import qualified LocalLib
 import qualified ExtraDepsLib
+import qualified PackagesLib
 
 main :: IO ()
 main = do
-    someFunc
+    putStrLn "in main"
+    LocalLib.someFunc
     PackagesLib.someFunc
     ExtraDepsLib.someFunc
