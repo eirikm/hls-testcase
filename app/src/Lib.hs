@@ -4,4 +4,4 @@ module Lib
 
 -- | local haddock
 someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc = putStrLn "internal someFunc"
