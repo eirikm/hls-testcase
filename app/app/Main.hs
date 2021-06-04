@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import Lib (someFunc)
+import qualified PackagesLib
 
 main :: IO ()
-main = someFunc
+main = do
+    someFunc
+    PackagesLib.someFunc
